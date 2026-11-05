@@ -1,0 +1,23 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta chraset="UTF-8">
+        <title>Página Protegida</title>
+    </head>
+    <body id="pag">
+	
+        <h1>Bem-vindo!</h1>
+		
+		<img src="https://conteudo.imguol.com.br/c/entretenimento/cc/2021/10/08/terceira-temporada-de-you-chega-a-netflix-no-dia-15-conheca-historias-de-casais-assassinos-da-vida-real-1633703813653_v2_1x1.jpg"  height="150">
+		<a href="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcT71chYf4vqm8U1--b1pdsQPocdS0CUUI2HXw"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOPh22xff-SmQGoJKS9kTKYj-rBeEXbsZA53lpM4YGmA&s=10"></A>
+        
+		<p>
+            Olá, <?= htmlspecialchars($_SESSION["usuario"]) ?>!
+        </p>
+
+        <p>Você acessou uma página protegida por sessão.</p>
+
+        <a href="sair.php">Sair do Sistema</a>
+    </body>
+</htmL>

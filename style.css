@@ -1,0 +1,12 @@
+/* ========= PÁGINA ========= */
+
+#pag {
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBCksKy7czL8Em85ieluwB8-1P_Mo3BevmWDlsEk3UvA&s=10");
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:white;
+}
+
+img {
+	width:150px;
+}
